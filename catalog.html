@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Main page</title>
+		<title>Catalog</title>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -49,185 +49,58 @@
 				</div>
 			</div>
 		</header>
-		<section class="brand">
-			<div class="brand__inner container">
-				<div class="brand__left">
-					<img class="brand__img" src="img/man_top.png" alt="" />
+		<section class="new-arrivals">
+			<div class="new-arrivals__inner container">
+				<h1 class="text text--red heading-1 text--uppercase">NEW ARRIVALS</h1>
+				<nav>
+					<a class="link new-arrivals__link text--gray" href="#">HOME</a>
+					<span class="new-arrivals__slash">/</span>
+					<a class="link new-arrivals__link text--gray" href="#">MEN</a>
+					<span class="new-arrivals__slash">/</span>
+					<a class="link new-arrivals__link text--gray" href="#"
+						>NEW ARRIVALS</a
+					>
+				</nav>
+			</div>
+		</section>
+		<section class="filters">
+			<div class="filters__inner container">
+				<div class="filters__left">
+					<button class="filters__btn">
+						<span class="filters__text text--uppercase">filter</span>
+						<img src="img/icon-filter.svg" alt="" />
+					</button>
 				</div>
-				<div class="brand__right">
-					<div class="brand__promo">
-						<div class="text text--900 text--uppercase">THE BRAND</div>
-						<div class="text text--700 text--uppercase">
-							OF LUXERIOUS
-							<span class="text text--700 text--red text--uppercase"
-								>FASHION</span
-							>
-						</div>
+				<div class="filters__right">
+					<div class="filters__item filters__item--trending">
+						<span class="text text--gray text--uppercase">TRENDING NOW</span>
+						<img
+							class="filters__arrow"
+							src="img/filter-arrow.svg"
+							alt="arrow"
+						/>
+					</div>
+					<div class="filters__item filters__item--size">
+						<span class="text text--gray text--uppercase">SIZE</span>
+						<img
+							class="filters__arrow"
+							src="img/filter-arrow.svg"
+							alt="arrow"
+						/>
+					</div>
+					<div class="filters__item filters__item--price">
+						<span class="text text--gray text--uppercase">PRICE</span>
+						<img
+							class="filters__arrow"
+							src="img/filter-arrow.svg"
+							alt="arrow"
+						/>
 					</div>
 				</div>
 			</div>
-
-			<div class="brand__dark hidden">
-				<div class="menu-wrapper">
-					<img
-						src="img/close-icon.svg"
-						alt="close-icon"
-						class="icon-close menu__close"
-					/>
-					<nav class="menu">
-						<span class="menu__heading text--uppercase text--700">Menu</span>
-						<ul class="menu__list">
-							<li class="menu__item text--red text--uppercase">
-								Man
-								<ul class="submenu__list menu__submenu">
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Accessories</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Bags</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Denim</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>T-Shirts</a
-										>
-									</li>
-								</ul>
-							</li>
-							<li class="menu__item text--red text--capitalize">
-								Woman
-								<ul class="submenu__list menu__submenu">
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Accessories</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Jackets & Coats</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Polos</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>T-Shirts</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Shirts</a
-										>
-									</li>
-								</ul>
-							</li>
-							<li class="menu__item text--red text--uppercase">
-								Kids
-								<ul class="submenu__list menu__submenu">
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Accessories</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Jackets & Coats</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Polos</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>T-Shirts</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Shirts</a
-										>
-									</li>
-									<li class="submenu__item">
-										<a class="link submenu__link text--capitalize" href="#"
-											>Bags</a
-										>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
 		</section>
-		<section class="container offer">
-			<div class="offer__item offer__item--woman">
-				<img
-					src="img/offer_woman.jpg"
-					alt=""
-					class="offer__img offer__img--woman"
-				/>
-				<div class="offer__text">
-					<div class="text text--reverse text--uppercase">30% OFF</div>
-					<div class="text text--700 text--red text--uppercase">FOR WOMEN</div>
-				</div>
-			</div>
-			<div class="offer__item offer__item--man">
-				<img
-					src="img/offer_man.jpg"
-					alt=""
-					class="offer__img offer__img--man"
-				/>
-				<div class="offer__text">
-					<div class="text text--reverse text--uppercase">HOT DEAL</div>
-					<div class="text text--700 text--red text--uppercase">FOR MEN</div>
-				</div>
-			</div>
-			<div class="offer__item offer__item--kids">
-				<img
-					src="img/offer_kids.jpg"
-					alt=""
-					class="offer__img offer__img--kids"
-				/>
-				<div class="offer__text">
-					<div class="text text--reverse text--uppercase">NEW ARRIVALS</div>
-					<div class="text text--700 text--red text--uppercase">FOR KIDS</div>
-				</div>
-			</div>
-			<div class="offer__item offer__item--accessories">
-				<img
-					src="img/offer_accesories.jpg"
-					alt=""
-					class="offer__img offer__img--accessories"
-				/>
-				<div class="offer__text">
-					<div class="text text--reverse text--uppercase">
-						LUXIROUS & TRENDY
-					</div>
-					<div class="text text--700 text--red text--uppercase">ACCESORIES</div>
-				</div>
-			</div>
-		</section>
-		<section class="featured-items container">
-			<div class="featured-items__head">
-				<h2 class="text heading-2">Fetured Items</h2>
-				<p class="text text--gray">
-					Shop for items based on what we featured in this week
-				</p>
-			</div>
-			<div class="featured-items__inner">
+		<section class="catalog container">
+			<div class="catalog__inner">
 				<div class="catalog__list">
 					<div class="product-card">
 						<div class="product-card__top">
@@ -394,11 +267,7 @@
 					</div>
 				</div>
 			</div>
-			<form action="#">
-				<button class="btn btn--red-border featured-items__btn-show">
-					Browse All Product
-				</button>
-			</form>
+			<div class="catalog__toggle"></div>
 		</section>
 		<section class="services">
 			<div class="services__list container">
