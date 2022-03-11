@@ -777,3 +777,39 @@
 .filters__input:not(:last-child) {
 	margin-bottom: 4px;
 }
+
+/* .pagination {
+	min-height: 188px;
+} */
+
+.pagination {
+	margin-top: 48px;
+	margin-bottom: 96px;
+}
+
+.pagination__toggle {
+	width: 284px;
+	height: 42px;
+	border: 1px solid #ebebeb;
+	margin: 0 auto;
+	padding: 13px 16px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 3px;
+}
+
+.pagination__page {
+	line-height: 14px;
+	color: #c4c4c4;
+	font-weight: 300;
+	font-size: 19px;
+	padding: 0 8px;
+}
+
+.pagination__page:hover {
+	color: #ef5b70;
+}
+
+/* .pagination__page:active {
+	color: #ef5b70;
+} */
