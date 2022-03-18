@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Catalog</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+			integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body class="page">
+		<header class="header page__header">
+			<div class="container header__inner">
+				<div class="header__left">
+					<a href="index.html">
+						<img class="logo header__logo" src="img/logo.svg" alt="logo" />
+					</a>
+					<img
+						class="icon icon-search header__icon-search"
+						src="img/search.svg"
+						alt=""
+					/>
+				</div>
+				<div class="header__right">
+					<img
+						class="icon icon-burger header__icon-burger"
+						src="img/menu-burger.svg"
+						alt="menu"
+					/>
+					<img
+						class="icon icon-user header__icon-user"
+						src="img/person-logo.svg"
+						alt="user"
+					/>
+					<span class="icon-cart-wrapper header__icon-cart-wrapper">
+						<img
+							class="icon icon-cart icon-cart-wrapper__img"
+							src="img/basket.svg"
+							alt="cart"
+						/>
+						<span class="icon-cart-wrapper__badge">5</span>
+					</span>
+				</div>
+			</div>
+		</header>
+		<section class="new-arrivals">
+			<div class="new-arrivals__inner container">
+				<h1 class="text text--red heading-1 text--uppercase">NEW ARRIVALS</h1>
+				<nav>
+					<a class="link new-arrivals__link text--gray" href="#">HOME</a>
+					<span class="new-arrivals__slash">/</span>
+					<a class="link new-arrivals__link text--gray" href="#">MEN</a>
+					<span class="new-arrivals__slash">/</span>
+					<a class="link new-arrivals__link text--gray" href="#"
+						>NEW ARRIVALS</a
+					>
+				</nav>
+			</div>
+		</section>
+		<section class="filters">
+			<div class="filters__inner container">
+				<div class="filters__left">
+					<button class="filters__btn">
+						<span class="filters__text text--uppercase">filter</span>
+						<img class="filters__icon" src="img/icon-filter.svg" alt="" />
+						<img
+							class="filters__icon--hover"
+							src="img/icon-filter--hover.svg"
+							alt=""
+						/>
+					</button>
+					<div class="filters__menu hidden">
+						<nav class="menu">
+							<ul class="menu__list menu__list--filter">
+								<li class="menu__item menu__item--filter">
+									<span
+										class="link menu__link menu__link--filter text--uppercase text--gray"
+									>
+										Category</span
+									>
+
+									<ul class="submenu__list submenu__list--filter hidden">
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Accessories</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Bags</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Denim</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Hoodies & Sweatshirts
+											</a>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Jackets & Coats</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Polos</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Shirts</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Shoes</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Sweaters & Knits</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>T-Shirts</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Tanks</a
+											>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item menu__item--filter">
+									<span
+										class="link menu__link menu__link--filter text--uppercase text--gray"
+									>
+										Brand</span
+									>
+
+									<ul class="submenu__list submenu__list--filter hidden">
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Accessories</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Bags</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Denim</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Hoodies & Sweatshirts
+											</a>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Jackets & Coats</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Polos</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Shirts</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Shoes</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Sweaters & Knits</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>T-Shirts</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Tanks</a
+											>
+										</li>
+									</ul>
+								</li>
+
+								<li class="menu__item menu__item--filter">
+									<span
+										class="link menu__link menu__link--filter text--uppercase text--gray"
+									>
+										Designer
+									</span>
+									<ul class="submenu__list submenu__list--filter hidden">
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Accessories</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Bags</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Denim</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Hoodies & Sweatshirts
+											</a>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Jackets & Coats</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Polos</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Shirts</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Shoes</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Sweaters & Knits</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>T-Shirts</a
+											>
+										</li>
+										<li class="submenu__item submenu__item--filter">
+											<a class="link submenu__link text--capitalize" href="#"
+												>Tanks</a
+											>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="filters__right">
+					<div class="filters__item filters__item--trending">
+						<span class="text text--gray text--uppercase">TRENDING NOW</span>
+						<img
+							class="filters__arrow"
+							src="img/filter-arrow.svg"
+							alt="arrow"
+						/>
+					</div>
+					<div class="filters__item filters__item--size">
+						<div class="filters__wrap filters__wrap--size">
+							<span class="text text--gray text--uppercase">SIZE</span>
+							<img
+								class="filters__arrow"
+								src="img/filter-arrow.svg"
+								alt="arrow"
+							/>
+						</div>
+						<div class="filters__popup filters__popup--size hidden">
+							<div class="filters__input">
+								<label class="text text--gray"
+									><input type="checkbox" /> XS</label
+								>
+							</div>
+							<div class="filters__input">
+								<label class="text text--gray"
+									><input type="checkbox" /> S</label
+								>
+							</div>
+							<div class="filters__input">
+								<label class="text text--gray"
+									><input type="checkbox" /> M</label
+								>
+							</div>
+							<div class="filters__input">
+								<label class="text text--gray"
+									><input type="checkbox" /> L</label
+								>
+							</div>
+						</div>
+					</div>
+					<div class="filters__item filters__item--price">
+						<span class="text text--gray text--uppercase">PRICE</span>
+						<img
+							class="filters__arrow"
+							src="img/filter-arrow.svg"
+							alt="arrow"
+						/>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="catalog container">
+			<div class="catalog__inner">
+				<div class="catalog__list">
+					<div class="product-card">
+						<div class="product-card__top">
+							<img
+								class="product-card__img"
+								src="img/featured-items-1.svg"
+								alt="jacket"
+							/>
+							<div class="product-card__hover">
+								<form action="#">
+									<button class="btn btn--featured">
+										<img src="img/basket.svg" alt="" class="btn__img" />
+										Add to Cart
+									</button>
+								</form>
+							</div>
+						</div>
+						<div class="product-card__text">
+							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
+							<p class="text text--gray">
+								Known for her sculptural takes on traditional tailoring,
+								Australian arbiter of cool Kym Ellery teams up with Moda
+								Operandi.
+							</p>
+							<p class="product-card__price text text--red text--uppercase">
+								$52.00
+							</p>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-card__top">
+							<img
+								class="product-card__img"
+								src="img/featured-items-2.jpg"
+								alt="jacket"
+							/>
+							<div class="product-card__hover">
+								<button class="btn btn--featured">
+									<img src="img/basket.svg" alt="" class="btn__img" />
+									Add to Cart
+								</button>
+							</div>
+						</div>
+
+						<div class="product-card__text">
+							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
+							<p class="text text--gray">
+								Known for her sculptural takes on traditional tailoring,
+								Australian arbiter of cool Kym Ellery teams up with Moda
+								Operandi.
+							</p>
+							<p class="product-card__price text text--red text--uppercase">
+								$52.00
+							</p>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-card__top">
+							<img
+								class="product-card__img"
+								src="img/featured-items-3.jpg"
+								alt="jacket"
+							/>
+							<div class="product-card__hover">
+								<button class="btn btn--featured">
+									<img src="img/basket.svg" alt="" class="btn__img" />
+									Add to Cart
+								</button>
+							</div>
+						</div>
+
+						<div class="product-card__text">
+							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
+							<p class="text text--gray">
+								Known for her sculptural takes on traditional tailoring,
+								Australian arbiter of cool Kym Ellery teams up with Moda
+								Operandi.
+							</p>
+							<p class="product-card__price text text--red text--uppercase">
+								$52.00
+							</p>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-card__top">
+							<img
+								class="product-card__img"
+								src="img/featured-items-4.jpg"
+								alt="jacket"
+							/>
+							<div class="product-card__hover">
+								<button class="btn btn--featured">
+									<img src="img/basket.svg" alt="" class="btn__img" />
+									Add to Cart
+								</button>
+							</div>
+						</div>
+
+						<div class="product-card__text">
+							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
+							<p class="text text--gray">
+								Known for her sculptural takes on traditional tailoring,
+								Australian arbiter of cool Kym Ellery teams up with Moda
+								Operandi.
+							</p>
+							<p class="product-card__price text text--red text--uppercase">
+								$52.00
+							</p>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-card__top">
+							<img
+								class="product-card__img"
+								src="img/featured-items-5.jpg"
+								alt="jacket"
+							/>
+							<div class="product-card__hover">
+								<button class="btn btn--featured">
+									<img src="img/basket.svg" alt="" class="btn__img" />
+									Add to Cart
+								</button>
+							</div>
+						</div>
+
+						<div class="product-card__text">
+							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
+							<p class="text text--gray">
+								Known for her sculptural takes on traditional tailoring,
+								Australian arbiter of cool Kym Ellery teams up with Moda
+								Operandi.
+							</p>
+							<p class="product-card__price text text--red text--uppercase">
+								$52.00
+							</p>
+						</div>
+					</div>
+					<div class="product-card">
+						<div class="product-card__top">
+							<img
+								class="product-card__img"
+								src="img/featured-items-6.jpg"
+								alt="jacket"
+							/>
+							<div class="product-card__hover">
+								<button class="btn btn--featured">
+									<img src="img/basket.svg" alt="" class="btn__img" />
+									Add to Cart
+								</button>
+							</div>
+						</div>
+
+						<div class="product-card__text">
+							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
+							<p class="text text--gray">
+								Known for her sculptural takes on traditional tailoring,
+								Australian arbiter of cool Kym Ellery teams up with Moda
+								Operandi.
+							</p>
+							<p class="product-card__price text text--red text--uppercase">
+								$52.00
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="catalog__toggle"></div>
+		</section>
+		<section class="pagination">
+			<div class="pagination__toggle">
+				<a href="#" class="pagination__left">
+					<img class="pagination__left" src="img/chevron-left.svg" alt="" />
+				</a>
+				<a href="#" class="link pagination__page">1</a>
+				<a href="#" class="link pagination__page">2</a>
+				<a href="#" class="link pagination__page">3</a>
+				<a href="#" class="link pagination__page">4</a>
+				<a href="#" class="link pagination__page">5</a>
+				<a href="#" class="link pagination__page">6.....20</a>
+				<a href="#" class="pagination__right">
+					<img src="img/chevron-right.svg" alt="" />
+				</a>
+			</div>
+		</section>
+		<section class="services">
+			<div class="services__list container">
+				<div class="services__item services__item--delivery">
+					<img class="services__img" src="img/icon-delivery.svg" alt="" />
+					<h3 class="text text--reverse heading-3 heading-3--services">
+						Free Delivery
+					</h3>
+					<p class="text text--gray">
+						Worldwide delivery on all. Authorit tively morph next-generation
+						innov tion with extensive models.
+					</p>
+				</div>
+				<div class="services__item services__item--sales">
+					<img class="services__img" src="img/icon-sales.svg" alt="" />
+					<h3 class="text text--reverse heading-3 heading-3--services">
+						Sales & discounts
+					</h3>
+					<p class="text text--gray">
+						Worldwide delivery on all. Authorit tively morph next-generation
+						innov tion with extensive models.
+					</p>
+				</div>
+				<div class="services__item services__item--quality">
+					<img class="services__img" src="img/icon-quality.svg" alt="" />
+					<h3 class="text text--reverse heading-3 heading-3--services">
+						Quality assurance
+					</h3>
+					<p class="text text--gray">
+						Worldwide delivery on all. Authorit tively morph next-generation
+						innov tion with extensive models.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section class="subscribe">
+			<div class="subscribe__inner container">
+				<div class="subscribe__item subscribe__item--quote">
+					<img src="img/IMG_0103.JPG" alt="" class="subscribe__img" />
+					<p class="text subscribe__quote">
+						<q
+							>Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+							<i>pulvinar purus condimentum</i>
+						</q>
+					</p>
+				</div>
+				<div class="subscribe__item subscribe__item--form">
+					<p class="subscribe__heading text text--700 text--uppercase">
+						SUBSCRIBE
+					</p>
+					<p class="subscribe__text text text--uppercase">
+						FOR OUR NEWLETTER AND PROMOTION
+					</p>
+					<form action="#" class="subscribe__email-input">
+						<input
+							type="email"
+							class="input subscribe__input"
+							placeholder="Enter Your Email"
+						/>
+						<input
+							type="button"
+							class="text--reverse subscribe__btn"
+							value="Subscribe"
+						/>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer class="footer page__footer">
+			<div class="footer__inner container">
+				<div class="footer__copyright">
+					<p class="text text--reverse">
+						&copy; 2021 Brand All Rights Reserved.
+					</p>
+				</div>
+				<div class="footer-social">
+					<a href="" class="link footer-link">
+						<i class="fa-brands fa-facebook-f"></i> </a
+					><a href="" class="link footer-link">
+						<i class="fa-brands fa-instagram"></i> </a
+					><a href="" class="link footer-link">
+						<i class="fa-brands fa-pinterest-p"></i> </a
+					><a href="" class="link footer-link">
+						<i class="fa-brands fa-twitter"></i>
+					</a>
+				</div>
+			</div>
+		</footer>
+		<script src="/script.js"></script>
+		<script src="/app.js"></script>
+	</body>
+</html>
