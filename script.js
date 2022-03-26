@@ -1,11 +1,13 @@
 'use strict';
 
-let brandDark = document.querySelector('.brand__dark')
+let headerMenu = document.querySelector('.header__menu');
+let headerDark = document.querySelector('.header__dark');
 let iconBurger = document.querySelector('.icon-burger');
 let menuClose = document.querySelector('.menu__close');
 
 function toggleMenu() {
-    brandDark.classList.toggle('hidden');
+    headerMenu.classList.toggle('hidden');
+    headerDark.classList.toggle('hidden');
 }
 
 iconBurger.addEventListener('click', toggleMenu);
