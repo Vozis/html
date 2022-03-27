@@ -287,19 +287,23 @@
 				</nav>
 			</div>
 		</div>
-		<div class="filters">
-			<div class="filters__inner container">
-				<div class="filters__left">
-					<button class="filters__btn">
-						<span class="filters__text text--uppercase">filter</span>
-						<img class="filters__icon" src="img/icon-filter.svg" alt="" />
+		<div class="filters-catalog">
+			<div class="filters-catalog__inner container">
+				<div class="filters-catalog__left">
+					<button class="filters-catalog__btn">
+						<span class="filters-catalog__text text--uppercase">filter</span>
 						<img
-							class="filters__icon--hover"
+							class="filters-catalog__icon"
+							src="img/icon-filter.svg"
+							alt=""
+						/>
+						<img
+							class="filters-catalog__icon--hover"
 							src="img/icon-filter--hover.svg"
 							alt=""
 						/>
 					</button>
-					<div class="filters__menu hidden">
+					<div class="filters-catalog__menu hidden">
 						<nav class="menu">
 							<ul class="menu__list menu__list--filter">
 								<li class="menu__item menu__item--filter">
@@ -501,54 +505,58 @@
 						</nav>
 					</div>
 				</div>
-				<div class="filters__right">
-					<div class="filters__item filters__item--trending">
-						<span class="text text--gray text--uppercase">TRENDING NOW</span>
-						<img
-							class="filters__arrow"
-							src="img/filter-arrow.svg"
-							alt="arrow"
-						/>
-					</div>
-					<div class="filters__item filters__item--size">
-						<div class="filters__wrap filters__wrap--size">
-							<span class="text text--gray text--uppercase">SIZE</span>
+				<div class="filters-catalog__right">
+					<div class="filter-category">
+						<div class="filter-category__item filter-category__item--trending">
+							<span class="text text--gray text--uppercase">TRENDING NOW</span>
 							<img
-								class="filters__arrow"
+								class="filter-category__arrow"
 								src="img/filter-arrow.svg"
 								alt="arrow"
 							/>
 						</div>
-						<div class="filters__popup filters__popup--size hidden">
-							<div class="filters__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> XS</label
-								>
+						<div class="filter-category__item filtercategory__item--size">
+							<div class="filter-category__wrap filter-category__wrap--size">
+								<span class="text text--gray text--uppercase">SIZE</span>
+								<img
+									class="filter-category__arrow"
+									src="img/filter-arrow.svg"
+									alt="arrow"
+								/>
 							</div>
-							<div class="filters__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> S</label
-								>
-							</div>
-							<div class="filters__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> M</label
-								>
-							</div>
-							<div class="filters__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> L</label
-								>
+							<div
+								class="filter-category__popup filter-category__popup--size hidden"
+							>
+								<div class="filter-category__input">
+									<label class="text text--gray"
+										><input type="checkbox" /> XS</label
+									>
+								</div>
+								<div class="filter-category__input">
+									<label class="text text--gray"
+										><input type="checkbox" /> S</label
+									>
+								</div>
+								<div class="filter-category__input">
+									<label class="text text--gray"
+										><input type="checkbox" /> M</label
+									>
+								</div>
+								<div class="filter-category__input">
+									<label class="text text--gray"
+										><input type="checkbox" /> L</label
+									>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="filters__item filters__item--price">
-						<span class="text text--gray text--uppercase">PRICE</span>
-						<img
-							class="filters__arrow"
-							src="img/filter-arrow.svg"
-							alt="arrow"
-						/>
+						<div class="filter-category__item filter-category__item--price">
+							<span class="text text--gray text--uppercase">PRICE</span>
+							<img
+								class="filter-category__arrow"
+								src="img/filter-arrow.svg"
+								alt="arrow"
+							/>
+						</div>
 					</div>
 				</div>
 			</div>

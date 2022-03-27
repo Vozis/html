@@ -1,8 +1,8 @@
 'use strict';
 
-let filtersIcon = document.querySelector('.filters__icon');
-let filtersMenu = document.querySelector('.filters__menu');
-let filtersBtn = document.querySelector('.filters__btn');
+let filtersIcon = document.querySelector('.filters-catalog__icon');
+let filtersMenu = document.querySelector('.filters-catalog__menu');
+let filtersBtn = document.querySelector('.filters-catalog__btn');
 
 filtersBtn.addEventListener('click', function() {
     filtersMenu.classList.toggle('hidden')
@@ -24,8 +24,8 @@ filtersMenuItem.forEach(function(header) {
     })
 });
 
-let filtersPopupSize = document.querySelector('.filters__popup--size');
-let filtersWrapSize = document.querySelector('.filters__wrap--size');
+let filtersPopupSize = document.querySelector('.filter-category__popup--size');
+let filtersWrapSize = document.querySelector('.filter-category__wrap--size');
 
 filtersWrapSize.addEventListener('click', function() {
     filtersPopupSize.classList.toggle('hidden')
