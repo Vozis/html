@@ -10,7 +10,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Product</title>
+		<title>Registration</title>
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -20,7 +20,7 @@
 		/>
 		<link rel="stylesheet" href="style.css" />
 	</head>
-	<body class="page">
+	<body>
 		<header class="header page__header">
 			<div class="container header__inner">
 				<div class="header__left">
@@ -279,198 +279,83 @@
 		</header>
 		<div class="page-heading">
 			<div class="page-heading__inner container">
-				<h1 class="text text--red heading-1 text--uppercase">NEW ARRIVALS</h1>
-				<nav>
-					<a class="link page-heading__link text--gray" href="#">HOME</a>
-					<span class="page-heading__slash">/</span>
-					<a class="link page-heading__link text--gray" href="#">MEN</a>
-					<span class="page-heading__slash">/</span>
-					<a class="link page-heading__link text--gray" href="#"
-						>NEW ARRIVALS</a
-					>
-				</nav>
+				<h1 class="text text--red heading-1 text--uppercase">registration</h1>
 			</div>
 		</div>
-		<div class="photo-slider">
-			<div class="photo-slider__arrow photo-slider__arrow--left">
-				<i class="fa-solid fa-chevron-left"></i>
-			</div>
-			<img src="img/slider/product-big.jpg" alt="" class="photo-slider__img" />
-			<div class="photo-slider__arrow photo-slider__arrow--right">
-				<i class="fa-solid fa-chevron-right"></i>
-			</div>
-		</div>
-		<div class="collection container">
-			<div class="collection__inner">
-				<h2 class="text text--red heading-2 heading-2--400">
-					WOMEN COLLECTION
-				</h2>
-				<div class="collection__divider collection__divider--red"></div>
-				<div class="collection__brand text text--gray text--uppercase">
-					MOSCHINO CHEAP AND CHIC
-				</div>
-
-				<div class="collection__text text text--gray">
-					Compellingly actualize fully researched processes before proactive
-					outsourcing. Progressively syndicate collaborative architectures
-					before cutting-edge services. Completely visualize parallel core
-					competencies rather than exceptional portals.
-				</div>
-				<div class="text text--red collection__price">$561</div>
-				<div class="collection__divider collection__divider--gray"></div>
-				<div class="filter-category collection__filter">
-					<div class="filter-category__item filter-category__item--trending">
-						<span class="text text--gray text--uppercase">CHOOSE COLOR</span>
-						<img
-							class="filter-category__arrow"
-							src="img/filter-arrow.svg"
-							alt="arrow"
-						/>
-					</div>
-					<div class="filter-category__item filtercategory__item--size">
-						<div class="filter-category__wrap filter-category__wrap--size">
-							<span class="text text--gray text--uppercase">CHOOSE SIZE </span>
-							<img
-								class="filter-category__arrow"
-								src="img/filter-arrow.svg"
-								alt="arrow"
-							/>
-						</div>
-						<div
-							class="filter-category__popup filter-category__popup--size hidden"
-						>
-							<div class="filter-category__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> XS</label
-								>
-							</div>
-							<div class="filter-category__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> S</label
-								>
-							</div>
-							<div class="filter-category__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> M</label
-								>
-							</div>
-							<div class="filter-category__input">
-								<label class="text text--gray"
-									><input type="checkbox" /> L</label
-								>
-							</div>
-						</div>
-					</div>
-					<div class="filter-category__item filter-category__item--price">
-						<span class="text text--gray text--uppercase">QUANTITY</span>
-						<img
-							class="filter-category__arrow"
-							src="img/filter-arrow.svg"
-							alt="arrow"
-						/>
-					</div>
-				</div>
-				<button class="btn btn--red-border">
-					<img
-						src="img/basket-red.svg"
-						alt=""
-						class="btn__img btn__img--left"
+		<div class="registration">
+			<div class="registration__inner container">
+				<form action="#" class="user-info-form registration__form">
+					<div class="text text--gray user-info-form__heading">Your Name</div>
+					<input
+						type="text"
+						class="user-info-form__input registration__input"
+						placeholder="First Name"
 					/>
-					Add to Cart
-				</button>
-			</div>
-		</div>
-		<!-- 
-
-
- -->
-		<div class="catalog container">
-			<div class="catalog__inner catalog__inner--product">
-				<div class="catalog__list">
-					<div class="product-card">
-						<div class="product-card__top">
-							<img
-								class="product-card__img"
-								src="img/featured-items-4.jpg"
-								alt="jacket"
-							/>
-							<div class="product-card__hover">
-								<button class="btn btn--featured">
-									<img src="img/basket.svg" alt="" class="btn__img--left" />
-									Add to Cart
-								</button>
-							</div>
-						</div>
-
-						<div class="product-card__text">
-							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
-							<p class="text text--gray">
-								Known for her sculptural takes on traditional tailoring,
-								Australian arbiter of cool Kym Ellery teams up with Moda
-								Operandi.
-							</p>
-							<p class="product-card__price text text--red text--uppercase">
-								$52.00
-							</p>
-						</div>
+					<input
+						type="text"
+						class="user-info-form__input registration__input"
+						placeholder="Last Name"
+					/>
+					<div class="registration__radio">
+						<input type="radio" name="gender" value="male" />
+						<span class="text text--gray">Male</span>
+						<input type="radio" name="gender" value="female" />
+						<span class="text text--gray">Female</span>
+						<input type="radio" name="gender" value="other" />
+						<span class="text text--gray">Other</span>
 					</div>
-					<div class="product-card">
-						<div class="product-card__top">
-							<img
-								class="product-card__img"
-								src="img/featured-items-5.jpg"
-								alt="jacket"
-							/>
-							<div class="product-card__hover">
-								<button class="btn btn--featured">
-									<img src="img/basket.svg" alt="" class="btn__img--left" />
-									Add to Cart
-								</button>
-							</div>
-						</div>
 
-						<div class="product-card__text">
-							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
-							<p class="text text--gray">
-								Known for her sculptural takes on traditional tailoring,
-								Australian arbiter of cool Kym Ellery teams up with Moda
-								Operandi.
-							</p>
-							<p class="product-card__price text text--red text--uppercase">
-								$52.00
-							</p>
-						</div>
+					<div class="text text--gray user-info-form__heading">
+						Login details
 					</div>
-					<div class="product-card">
-						<div class="product-card__top">
-							<img
-								class="product-card__img"
-								src="img/featured-items-6.jpg"
-								alt="jacket"
-							/>
-							<div class="product-card__hover">
-								<button class="btn btn--featured">
-									<img src="img/basket.svg" alt="" class="btn__img--left" />
-									Add to Cart
-								</button>
-							</div>
-						</div>
-
-						<div class="product-card__text">
-							<h3 class="text heading-3">ELLERY X M'O CAPSULE</h3>
-							<p class="text text--gray">
-								Known for her sculptural takes on traditional tailoring,
-								Australian arbiter of cool Kym Ellery teams up with Moda
-								Operandi.
-							</p>
-							<p class="product-card__price text text--red text--uppercase">
-								$52.00
-							</p>
-						</div>
+					<input
+						type="email"
+						class="user-info-form__input registration__input"
+						placeholder="Email"
+					/>
+					<input
+						type="password"
+						class="user-info-form__input registration__input"
+						placeholder="Password"
+					/>
+					<div class="text text--gray registration__form-text">
+						Please use 8 or more characters, with at least 1 number and a
+						mixture of uppercase and lowercase letters
 					</div>
+					<button class="btn btn--red featured-items__btn-show">
+						JOIN NOW
+						<i
+							class="fa-solid fa-arrow-right-long btn__img btn__img--right"
+						></i>
+					</button>
+				</form>
+				<div class="registration__perks">
+					<div class="text text--gray registration__heading">
+						LOYALTY HAS ITS PERKS
+					</div>
+					<div class="text text--gray registration__text">
+						Get in on the loyalty program where you can earn points and unlock
+						serious perks. Starting with these as soon as you join:
+					</div>
+					<ul class="registration__list">
+						<li class="registration__item registration__text">
+							15% off welcome offer
+						</li>
+						<li class="registration__item registration__text">
+							Free shipping, returns and exchanges on all orders
+						</li>
+						<li class="registration__item registration__text">
+							$10 off a purchase on your birthday
+						</li>
+						<li class="registration__item registration__text">
+							Early access to products
+						</li>
+						<li class="registration__item registration__text">
+							Exclusive offers & rewards
+						</li>
+					</ul>
 				</div>
 			</div>
-			<div class="catalog__toggle"></div>
 		</div>
 		<div class="subscribe">
 			<div class="subscribe__inner container">
