@@ -26,6 +26,7 @@
 	}
 
 	&__left {
+
 		@media (max-width: 575px) {
 			display: none;
 		}
@@ -38,6 +39,8 @@
 	}
 
 	&__img {
+    margin-left: -100px;
+
 		@media (max-width: 1199px) {
 			width: 100%;
 		}

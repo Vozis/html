@@ -3,10 +3,12 @@
 
 	@media (max-width: 769px) {
 		flex-grow: 1;
+    flex-shrink: 0;
 	}
 
 	@media (max-width: 575px) {
 		width: 100%;
+    flex-shrink: 0;
 	}
 
 	&__input {
