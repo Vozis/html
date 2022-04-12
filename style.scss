@@ -1,0 +1,49 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Lato, sans-serif;
+	box-sizing: border-box;
+}
+
+@import "_variables";
+@import "#{$style-path}/container";
+@import "#{$style-path}/brand";
+@import "#{$style-path}/btn";
+@import "#{$style-path}/cart-card";
+@import "#{$style-path}/cart";
+@import "#{$style-path}/catalog";
+@import "#{$style-path}/collection";
+@import "#{$style-path}/featured-items";
+@import "#{$style-path}/filter-category";
+@import "#{$style-path}/filters-catalog";
+@import "#{$style-path}/footer";
+@import "#{$style-path}/header";
+@import "#{$img-path}/menu";
+@import "#{$style-path}/offer";
+@import "#{$style-path}/page-heading";
+@import "#{$style-path}/pagination";
+@import "#{$style-path}/photo-slider";
+@import "#{$style-path}/registration";
+@import "#{$style-path}/services";
+@import "#{$style-path}/subscribe";
+@import "#{$style-path}/tipography";
+@import "#{$style-path}/user-info-form";
+@import "#{$style-path}/product-card";
+@import "#{$style-path}/icon-close";
+
+
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
