@@ -1,3 +1,5 @@
+/** @format */
+
 .product-card {
   display: flex;
   flex-direction: column;
@@ -28,7 +30,6 @@
     left: 0;
     top: 0;
     background-color: rgba(58, 56, 56, 0.86);
-    display: none;
     justify-content: center;
     align-items: center;
     display: none;
@@ -36,5 +37,5 @@
 }
 
 .product-card:hover .product-card__hover {
-	display: flex;
+  display: flex;
 }
